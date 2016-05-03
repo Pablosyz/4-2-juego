@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.upm.dit.adsw.SuerteActivity">
+    <TextView
+        android:id="@+id/textoSuerte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:text="¡Buena suerte!"
+        android:gravity="center_horizontal"
+
+    />
+    <ImageView
+        android:id="@+id/imagenSuerte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buena_suerte"
+        android:layout_below="@id/textoSuerte"/>
+
+    <Button
+        android:id="@+id/botonSuerte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Volver a juego"
+        android:layout_alignParentBottom="true"></Button>
+
+</RelativeLayout>
